@@ -71,7 +71,7 @@ SubLess uses a **freemium approach**:
 ## 🎥 Live Demo
 
 🎬 Watch our short demo video:  
-👉 [![SubLess Demo](https://img.youtube.com/vi/JnNBnaj0fzY/0.jpg)](https://www.youtube-nocookie.com/embed/20DLWmrIiqc?si=AxZQEVSNy8ezJbW-)
+👉 [![SubLess Demo](https://img.youtube.com/vi/JnNBnaj0fzY/0.jpg)](https://www.youtube.com/embed/ijbUTfkhdOc?si=rVtdxtNIUa6TjGHu&amp;start=3)
 
 *(If the embed doesn’t load, click the image to view on YouTube.)*
 Or explore it live:  
