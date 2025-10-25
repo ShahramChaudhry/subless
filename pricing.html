@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing - SLess</title>
+    <link rel="stylesheet" href="landing.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/logo.png" alt="SLess Logo" class="logo-image">
+                <span class="logo-text">Less</span>
+            </div>
+            <nav class="header-nav">
+                <a href="landing.html" class="nav-link">Home</a>
+                <a href="pricing.html" class="nav-link active">Pricing</a>
+                <a href="features.html" class="nav-link">Features</a>
+                <a href="about.html" class="nav-link">About</a>
+                <div class="language-toggle">
+                    <i class="fas fa-globe"></i>
+                    <span>EN</span>
+                </div>
+                <a href="#" class="login-link">
+                    Login <i class="fas fa-arrow-right"></i>
+                </a>
+                <button class="btn-register">
+                    <i class="fas fa-user"></i>
+                    Register
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Pricing Hero -->
+    <section class="pricing-hero">
+        <div class="pricing-hero-content">
+            <h1>Choose Your Plan</h1>
+            <p>Start saving money today with our flexible pricing plans</p>
+        </div>
+    </section>
+
+    <!-- Pricing Plans -->
+    <section class="pricing-plans">
+        <div class="pricing-content">
+            <div class="pricing-cards">
+                <div class="pricing-card free">
+                    <div class="plan-header">
+                        <h3>Free</h3>
+                        <div class="plan-price">
+                            <span class="price">AED 0</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p class="plan-description">Perfect for getting started</p>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> Track up to 3 subscriptions</li>
+                        <li><i class="fas fa-check"></i> Basic analytics</li>
+                        <li><i class="fas fa-check"></i> Payment reminders</li>
+                        <li><i class="fas fa-check"></i> Email support</li>
+                        <li><i class="fas fa-times"></i> Advanced insights</li>
+                        <li><i class="fas fa-times"></i> Household sharing</li>
+                        <li><i class="fas fa-times"></i> Auto-cancellation</li>
+                    </ul>
+                    <button class="btn-plan" onclick="goToDemo()">Get Started Free</button>
+                </div>
+
+                <div class="pricing-card pro featured">
+                    <div class="plan-badge">Most Popular</div>
+                    <div class="plan-header">
+                        <h3>Pro</h3>
+                        <div class="plan-price">
+                            <span class="price">AED 25</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p class="plan-description">For power users who want it all</p>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> Unlimited subscriptions</li>
+                        <li><i class="fas fa-check"></i> Advanced analytics</li>
+                        <li><i class="fas fa-check"></i> Smart reminders</li>
+                        <li><i class="fas fa-check"></i> Usage insights</li>
+                        <li><i class="fas fa-check"></i> Household sharing</li>
+                        <li><i class="fas fa-check"></i> One-click cancellation</li>
+                        <li><i class="fas fa-check"></i> Priority support</li>
+                    </ul>
+                    <button class="btn-plan primary" onclick="goToDemo()">Start Pro Trial</button>
+                </div>
+
+                <div class="pricing-card business">
+                    <div class="plan-header">
+                        <h3>Business</h3>
+                        <div class="plan-price">
+                            <span class="price">AED 50</span>
+                            <span class="period">/month</span>
+                        </div>
+                        <p class="plan-description">For teams and organizations</p>
+                    </div>
+                    <ul class="plan-features">
+                        <li><i class="fas fa-check"></i> Everything in Pro</li>
+                        <li><i class="fas fa-check"></i> Team management</li>
+                        <li><i class="fas fa-check"></i> API access</li>
+                        <li><i class="fas fa-check"></i> Custom integrations</li>
+                        <li><i class="fas fa-check"></i> Advanced reporting</li>
+                        <li><i class="fas fa-check"></i> Dedicated support</li>
+                        <li><i class="fas fa-check"></i> White-label options</li>
+                    </ul>
+                    <button class="btn-plan" onclick="goToDemo()">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="faq-content">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h4>Can I change plans anytime?</h4>
+                    <p>Yes, you can upgrade or downgrade your plan at any time. Changes take effect immediately.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Is there a free trial?</h4>
+                    <p>Yes! Pro plan comes with a 14-day free trial. No credit card required.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>What payment methods do you accept?</h4>
+                    <p>We accept all major credit cards, PayPal, and local UAE payment methods.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Can I cancel anytime?</h4>
+                    <p>Absolutely. Cancel anytime with no cancellation fees or hidden charges.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Ready to Start Saving?</h2>
+            <p>Join thousands of users who have saved thousands of dirhams with SLess</p>
+            <div class="cta-buttons">
+                <button class="btn-try-me-cta" onclick="goToDemo()">
+                    <i class="fas fa-play"></i>
+                    Try Demo
+                </button>
+                <button class="btn-start-free-cta">
+                    Start Free Trial
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <script src="landing.js"></script>
+</body>
+</html>

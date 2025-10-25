@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سبLess - Subscription Management Platform</title>
+    <link rel="stylesheet" href="landing.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/logo.png" alt="SLess Logo" class="logo-image">
+                <span class="logo-text">Less</span>
+            </div>
+            <nav class="header-nav">
+                <a href="landing.html" class="nav-link active">Home</a>
+                <a href="pricing.html" class="nav-link">Pricing</a>
+                <a href="features.html" class="nav-link">Features</a>
+                <a href="about.html" class="nav-link">About</a>
+                <div class="language-toggle">
+                    <i class="fas fa-globe"></i>
+                    <span>EN</span>
+                </div>
+                <a href="#" class="login-link">
+                    Login <i class="fas fa-arrow-right"></i>
+                </a>
+                <button class="btn-register">
+                    <i class="fas fa-user"></i>
+                    Register
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="video-container">
+            <div class="video-placeholder">
+                <div class="video-icon">
+                    <i class="fas fa-play"></i>
+                </div>
+                <h2>See SLess in Action</h2>
+                <p>Watch how SLess helps you save money and manage subscriptions effortlessly</p>
+                <div class="video-duration">2:30</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="hero-logo">
+                    <img src="images/logo.png" alt="SLess Logo" class="hero-logo-image">
+                    <span class="logo-text">Less</span>
+                </div>
+                <h1 class="hero-tagline">Because Less is More</h1>
+                <p class="hero-description">
+                    Discover, track, and manage your subscriptions automatically. 
+                    Save money and gain full visibility into your spending in the UAE.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-try-me" onclick="goToDemo()">
+                        <i class="fas fa-play"></i>
+                        Try Me
+                    </button>
+                    <button class="btn-start-free">
+                        Start Free
+                    </button>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="dashboard-preview">
+                    <div class="preview-header">
+                        <h3>Dashboard</h3>
+                    </div>
+                    <div class="preview-content">
+                        <div class="preview-item">
+                            <span>Active Subscriptions</span>
+                            <span class="preview-value">12</span>
+                        </div>
+                        <div class="preview-item">
+                            <span>Monthly Cost</span>
+                            <span class="preview-value">AED 450</span>
+                        </div>
+                        <div class="preview-item">
+                            <span>Monthly Savings</span>
+                            <span class="preview-value savings">AED 200</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats">
+        <div class="stats-content">
+            <div class="stat-item">
+                <div class="stat-number">2,500+</div>
+                <div class="stat-label">Active Users</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">AED 1.2M</div>
+                <div class="stat-label">Saved</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">15,000+</div>
+                <div class="stat-label">Subscriptions Detected</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">98%</div>
+                <div class="stat-label">Satisfaction Rate</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem-section">
+        <div class="problem-content">
+            <div class="problem-left">
+                <h2>The Problem We Solve</h2>
+                <p class="problem-description">
+                    Did you know that consumers in the UAE spend an average of 800 AED monthly on forgotten subscriptions?
+                </p>
+                <div class="problem-points">
+                    <div class="problem-point">
+                        <i class="fas fa-chart-line problem-icon"></i>
+                        <span>Forgotten subscriptions draining your budget</span>
+                    </div>
+                    <div class="problem-point">
+                        <i class="fas fa-eye problem-icon"></i>
+                        <span>Lack of visibility into spending patterns</span>
+                    </div>
+                    <div class="problem-point">
+                        <i class="fas fa-times-circle problem-icon"></i>
+                        <span>Difficulty managing multiple subscriptions</span>
+                    </div>
+                </div>
+            </div>
+            <div class="problem-right">
+                <div class="problem-card">
+                    <div class="problem-amount">800 AED</div>
+                    <div class="problem-text">Average monthly spending on forgotten subscriptions</div>
+                    <div class="problem-location">In the UAE</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution-section">
+        <div class="solution-content">
+            <h2>Our Smart Solution</h2>
+            <p class="solution-description">
+                SLess uses AI to automatically discover and manage subscriptions
+            </p>
+            <div class="solution-features">
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Auto-Detection from Emails</h3>
+                    <p>Automatically detect subscriptions from billing and renewal emails</p>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>Bank Account Linking</h3>
+                    <p>Monitor recurring transactions by linking your bank account</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="features-content">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Auto-Detection from Emails</h3>
+                    <p>Automatically detect subscriptions from billing and renewal emails.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>Bank Account Linking</h3>
+                    <p>Monitor recurring transactions by linking your bank account.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Smart Spending Analytics</h3>
+                    <p>Get detailed insights into spending patterns and recommendations.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-times"></i>
+                    </div>
+                    <h3>One-Click Cancellation</h3>
+                    <p>Cancel or pause subscriptions directly from the app.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="testimonials-content">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-quote">
+                        "SLess helped me save 500 AED monthly by discovering forgotten subscriptions!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">A</div>
+                        <div class="author-info">
+                            <div class="author-name">Ahmed Mohammed</div>
+                            <div class="author-title">Software Developer</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-quote">
+                        "The Arabic UI is amazing, and the analytics are so helpful"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">F</div>
+                        <div class="author-info">
+                            <div class="author-name">Fatima Ali</div>
+                            <div class="author-title">Marketing Manager</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-quote">
+                        "The best subscription management app in the UAE"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">M</div>
+                        <div class="author-info">
+                            <div class="author-name">Mohammed Al Khouri</div>
+                            <div class="author-title">Entrepreneur</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Start Saving Money Today</h2>
+            <p>Join thousands of users who have saved thousands of dirhams with SLess</p>
+            <div class="cta-buttons">
+                <button class="btn-try-me-cta" onclick="goToDemo()">
+                    <i class="fas fa-play"></i>
+                    Try Me
+                </button>
+                <button class="btn-start-free-cta">
+                    Start Free
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <script src="landing.js"></script>
+</body>
+</html>
