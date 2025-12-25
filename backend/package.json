@@ -1,0 +1,31 @@
+{
+  "name": "sless-backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "seed": "node src/scripts/seedTestData.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "express-session": "^1.17.3",
+    "googleapis": "^144.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.1",
+    "morgan": "^1.10.0",
+    "nanoid": "^5.0.7",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.4",
+    "vitest": "^1.6.1"
+  }
+}
